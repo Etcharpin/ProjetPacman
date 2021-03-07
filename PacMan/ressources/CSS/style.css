@@ -1,0 +1,23 @@
+.button{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: #2B4F9C;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 4em;
+    -fx-text-fill: white;
+    -fx-pref-height: 80px;
+    -fx-pref-width: 500;
+
+
+}
+.button:hover {
+    -fx-border-color: transparent, white;
+    -fx-border-width: 2, 2;
+    -fx-border-style: solid;
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+    -fx-pref-height: 90px;
+    -fx-pref-width: 510px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0.5, 0, 0);
+}
